@@ -75,3 +75,6 @@ document.getElementById("search-button").addEventListener("click", async () => {
     const articles = await fetchNews("latest");
     displayBlogs(articles);
 })();
+
+
+
